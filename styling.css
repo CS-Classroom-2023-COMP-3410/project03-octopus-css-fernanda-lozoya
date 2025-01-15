@@ -1,0 +1,195 @@
+/* Style for the header */
+#WholePage {
+    background: rgb(178, 218, 241);
+    border-radius: 0;
+    margin: 0px;
+}
+
+#header {
+    text-align: center;
+    background: linear-gradient(to right, #05596e, #048aab, #06bdeb);
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    margin: 1px;
+}
+
+#header-text {
+    text-align: left;
+    font-style: italic;
+}
+
+/* Style for the main content */
+#main-content {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#introduction h2 {
+    position: relative; /* Required for the ::after positioning */
+    display: inline-block; /* Keeps the styling within the text width */
+    color: #048aab; /* Text color */
+
+}
+
+#introduction h2::after {
+    content: ""; /* No visible content; used for the underline */
+    position: absolute;
+    left: 0; /* Start the underline from the beginning of the word */
+    bottom: 0; /* Position the line at the bottom of the text */
+    width: 50%; /* Adjust to cover half of the word */
+    height: 2px; /* Thickness of the underline */
+    background: linear-gradient( #048aab,#85daef); /* Color of the underline */
+}
+ul li::marker {
+    color: #048aab; /* Change to your desired bullet color */
+    font-size: 1.2em; /* Optional: Adjust bullet size */
+}
+
+#amazing-facts,
+#anatomy,
+#comparison,
+
+#externalR {
+    color: #048aab;
+}
+.important {
+    color: #151616;
+    background-color: #9bd1dc;
+    font-display: bold;
+}
+a{
+    color: #048aab;
+    font-style: bold;
+}
+
+#quiz-section {
+    background: #69b1c3;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* Quiz Title Styling */
+#QuizTitle {
+    color: #06566a;
+}
+
+/* Layout for image and quiz */
+#par {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Push elements to opposite sides */
+    align-items: flex-start; /* Align elements to the top */
+}
+
+/* Image Styling */
+#image {
+    border: 5px solid #6f086f;
+    display: block;
+}
+
+/* Quiz Styling */
+#quiz {
+    margin-left: auto; /* Push quiz section to the right */
+    text-align: left; /* Align text within the quiz section */
+    position: relative; /* Allows fine-tuning of position */
+    top: -10px; /* Adjust vertical position closer to the top */
+}
+
+/* Questions and Inputs */
+#question1,
+#question2 {
+    margin-top: 10px; /* Add spacing between questions */
+    color: #06566a; /* Darker text color for questions */
+}
+
+input[type="text"] {
+    width: 200px; /* Elongate input boxes */
+    padding: 5px; /* Add padding inside input boxes */
+    border: 1px solid #ccc; /* Style the border */
+    border-radius: 5px; /* Round corners */
+    margin-top: 5px; /* Space between label and input */
+}
+
+#input1,
+#input2 {
+    margin-bottom: 15px; /* Add spacing between inputs */
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    margin-top: 15px; /* Space before the submit button */
+    padding: 8px 16px; /* Add padding for a larger button */
+    background-color: #034a5c; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #036b86; /* Darker button color on hover */
+}
+
+#species{
+    color: #048aab;
+    text-align: left;
+}
+/* Style for the table container */
+#species-table {
+    width: 90%; /* Adjust the width to your preference (e.g., 80% of the page width) */
+    margin: 20px auto; /* Center the table horizontally with auto margins */
+    text-align: center; /* Center align the text inside the table */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Ensures the table spans the full width of the container (#species-table) */
+    border-collapse: collapse; /* Combines borders for a clean look */
+}
+
+/* Header row styles */
+#species-table th {
+    background-color: hsl(195, 5%, 43%); /* Header background color */
+    color: white; /* Header text color */
+    padding: 10px; /* Padding for better readability */
+}
+
+/* Row styles */
+#line1 {
+    background-color: #646566; /* Light blue for header row */
+}
+
+#line2 {
+    background-color: #9bd1dc; /* Very light blue for the first data row */
+}
+
+#line3 {
+    background-color: #fefefe; /* Slightly darker light blue for the second data row */
+}
+
+/* Cell styles */
+td {
+    padding: 10px; /* Padding inside cells */
+    text-align: center; /* Center aligns text in cells */
+    border: 1px solid #ccc; /* Adds a border to each cell */
+}
+
+
+
+
+
+/* Style for the footer */
+#footer {
+    background-color: #04495b;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fbf3f3;
+
+}

@@ -4,43 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <title>The Fascinating World of Octopuses</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
+<div id="WholePage">
+<body> 
+    
+    <!-- Header Section-->
 
-<body>
-    <!-- Header Section -->
     <div id="header">
         <h1>The Fascinating World of Octopuses</h1>
-        <p>Welcome to this intriguing corner of the internet!</p>
+        <div id="header-text">
+            <p>Welcome to this intriguing corner of the internet!</p>
+        <!-- <p>Welcome to this intriguing corner of the internet!</p> -->
+        </div>
     </div>
+     
+    
+    
 
     <!-- Main Content -->
     <div id="main-content">
 
         <!-- Introduction -->
+         <div id="introduction">
         <h2>Introduction</h2>
+        </div>
         <p>
             Octopuses are among the most fascinating creatures in the ocean.
             They are known for their intelligence and remarkable adaptability.
         </p>
 
         <!-- Amazing Facts -->
+         <div id="amazing-facts">
         <h3>Amazing Facts</h3>
+        </div>
         <!-- Unordered list -->
         <ul>
+
             <li>They have three hearts.</li>
             <li>They can change color.</li>
             <li>They are masters of camouflage.</li>
         </ul>
 
         <!-- Anatomy -->
+        <div id="anatomy">
         <h4>Anatomy</h4>
+        </div>
         <p>
             An octopus's anatomy is as unique as it is fascinating.
             The <span class="important">mantle</span>, for example, helps in respiration and jet propulsion.
         </p>
 
         <!-- Comparison with other Cephalopods -->
+        <div id="comparison">
         <h5>Comparison with Other Cephalopods</h5>
+        </div>
         <!-- Ordered list -->
         <ol>
             <li>Squid</li>
@@ -49,55 +67,85 @@
         </ol>
 
         <!-- External Resources -->
+         <div id="externalR">
         <h6>External Resources</h6>
+        </div>
+
         <p>
             For more information, visit these websites:
+        
             <a href="https://www.oceana.org/" target="_blank">Oceana</a> |
             <a href="https://www.nationalgeographic.com/" target="_blank">National Geographic</a>
+         
         </p>
 
         <!-- Fun Experiment: Octopus Quiz -->
         <div id="quiz-section">
 
             <!-- Image -->
+            <!-- <div id="image">
             <img src="octopus-image.png" alt="Image of an octopus" width="100">
+            </div> -->
 
+            <div id="QuizTitle">
             <h2>Octopus Quiz</h2>
+            </div>
+
+            <div id="par"> 
+            <div id="image">
+                <img src="octopus-image.png" alt="Image of an octopus" width="100">
+                </div>
+            <div id="quiz">
+    
             <form action="/submit-quiz" method="POST">
                 <!-- Question 1 -->
+                <div id="question1">
                 <label for="question1">How many hearts does an octopus have?</label>
+                </div>
+                <div id="input1">
                 <input type="text" id="question1" name="question1"><br>
-
+                </div>
                 <!-- Question 2 -->
+                <div id="question2">
                 <label for="question2">Can octopuses change color? (Yes/No)</label>
+                </div>
+                <div id="input2">
                 <input type="text" id="question2" name="question2"><br>
+                </div>
 
                 <input type="submit" value="Submit Quiz">
             </form>
+
+            </div>
+        </div>
         </div>
 
     </div> <!-- End of main-content -->
 
     <!-- Table -->
     <div id="species-table">
+        <div id="species">
         <h2>Common Octopus Species</h2>
+        </div>
+        <div id="table">
         <table border="1">
-            <tr>
+            <tr id="line1">
                 <th>Species</th>
                 <th>Location</th>
                 <th>Size</th>
             </tr>
-            <tr>
+            <tr id="line2">
                 <td>Common Octopus</td>
                 <td>Worldwide</td>
                 <td>12-36 inches</td>
             </tr>
-            <tr>
+            <tr id="line3">
                 <td>Giant Pacific Octopus</td>
                 <td>North Pacific</td>
                 <td>Up to 16 feet</td>
             </tr>
         </table>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -108,7 +156,7 @@
             Fun Fact: The plural of "Octopus" can be both "Octopuses" &amp; "Octopi" &lt;3
         </p>
     </div>
-
+  
 </body>
-
+</div>
 </html>
